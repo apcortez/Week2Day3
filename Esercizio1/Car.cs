@@ -17,6 +17,11 @@ namespace Esercizio1
                 this.PlateNumber = PlateNumber;
                 this.Fluel = Fluel;
             }
+
+        public override void GetInfo()
+        {
+            Console.WriteLine(IdCode + " " + Brand + " " + Model + " " + PlateNumber + " " + Fluel);
+        }
     }
 
     public enum FluelEnum

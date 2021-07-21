@@ -15,6 +15,11 @@ namespace Esercizio1
         {
             this.Property = Property;
         }
+
+        public override void GetInfo()
+        {
+            Console.WriteLine(IdCode + " " + Brand + " " + Model + " " + Property);
+        }
     }
 
     public enum PropertyEnum
