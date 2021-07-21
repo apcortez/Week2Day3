@@ -17,7 +17,9 @@ namespace Week2Day3
             p2.FirstName = "Marco";
             p2.LastName = "Verdi";
 
-            Employee e2 = new Employee("Sara", "Bianchi", RoleEnum.Technician);
+            //eredita il nome, il cognome e l'età della superclasse 
+            // e li aggrega ai suoi attributi (es eta)
+            Employee e2 = new Employee("Sara", "Bianchi", RoleEnum.Technician, 13);
             e2.GetFullName();
         }
     }
