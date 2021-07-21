@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Esercizio1
 {
-    class Vehicle
+    abstract class Vehicle
     {
         public string IdCode { get; set; }
         public string Brand { get; set; }
@@ -23,6 +23,13 @@ namespace Esercizio1
             this.Brand = Brand;
             this.Model = Model;
         }
+
+        public void GetBrand()
+        {
+            Console.WriteLine("Brand: " + Brand);
+        }
+
+        public abstract void GetInfo();
 
     }
 }
