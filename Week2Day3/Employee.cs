@@ -18,10 +18,7 @@ namespace Week2Day3
             this.Role = Role;
         }
 
-        internal void GetFullName()
-        {
-            Console.WriteLine("Il suo nome è " + FirstName);
-        }
+      
 
         public Employee(string FirstName, string LastName, RoleEnum Role,int Age)
            : base(FirstName, LastName, Age) // riferimento al costruttore della superclasse
@@ -31,6 +28,13 @@ namespace Week2Day3
         public Employee()
         {
 
+        }
+
+        //Override del metodo della superclasse
+        //si utilizza la dicitura "override"
+        public override void PrintInfo()
+        {
+            Console.WriteLine(FirstName + " " + LastName + " " + Age + " " + Role);
         }
     }
 

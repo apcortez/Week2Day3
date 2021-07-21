@@ -27,5 +27,18 @@ namespace Week2Day3
         {
 
         }
+
+        public void GetFullname()
+        {
+            Console.WriteLine(FirstName + " " + Lastname);
+
+        }
+
+        //metodo astratto della superclasse che deve essere implementata in maniera piu dettagliata nelle classi figlie
+        //si utilizza la dicitura "virtual" o "abstract" 
+        public virtual void PrintInfo()
+        {
+            Console.WriteLine(FirstName + " " + LastName + " " + Age);
+        }
     }
 }
