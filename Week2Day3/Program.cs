@@ -21,6 +21,8 @@ namespace Week2Day3
             // e li aggrega ai suoi attributi (es eta)
             Employee e2 = new Employee("Sara", "Bianchi", RoleEnum.Technician, 13);
             e2.GetFullname();
+            e2.PrintInfo();
+            p2.PrintInfo();
         }
     }
 }

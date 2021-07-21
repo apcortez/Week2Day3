@@ -30,7 +30,7 @@ namespace Week2Day3
 
         public void GetFullname()
         {
-            Console.WriteLine(FirstName + " " + Lastname);
+            Console.WriteLine(FirstName + " " + LastName);
 
         }
 
