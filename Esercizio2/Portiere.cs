@@ -16,8 +16,8 @@ namespace Esercizio2
             this.GoalsTaken = GoalsTaken;
         }
 
-        public Portiere(string FirstName, string LastName, int Age, RoleEnum Role, int GoalsTaken)
-            : base(FirstName, LastName, Age, Role)
+        public Portiere(string FirstName, string LastName, int Age, int GoalsTaken)
+            : base(FirstName, LastName, Age)
         {
             NumberJersery = 1;
             Role = RoleEnum.Portiere;

@@ -24,15 +24,15 @@ namespace Esercizio2
         {
             List<SoccerPlayer> Italia = new List<SoccerPlayer>()
             {
-                new Portiere("Gianluigi", "Donnaruma", 22, RoleEnum.Portiere, 5 ),
-                new Difensore(2, "Giorgio", "Chiellini", 30, RoleEnum.Difensore, 10),
-                new Attaccante(3, "Lorenzo", "Insigne", 19, RoleEnum.Attaccante, 2),
-                new Attaccante(4, "Federico", "Chiesa", 20, RoleEnum.Attaccante, 5),
-                new Attaccante(5, "Ciro", "Immobile", 21, RoleEnum.Attaccante, 0),
-                new Centrocampista(6, "Jorge", "Frello", 27, RoleEnum.Centrocampista, )
-                
+                new Portiere("Gianluigi", "Donnaruma", 22, 5 ),
+                new Difensore(2, "Giorgio", "Chiellini", 30, 10),
+                new Attaccante(3, "Lorenzo", "Insigne", 19, 2),
+                new Attaccante(4, "Federico", "Chiesa", 20, 5),
+                new Attaccante(5, "Ciro", "Immobile", 21,0),
+                new Centrocampista(6, "Jorge", "Frello", 27, 3 )
 
-            }
+
+            };
 
 
         }

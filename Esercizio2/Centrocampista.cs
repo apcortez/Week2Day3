@@ -9,7 +9,7 @@ namespace Esercizio2
     class Centrocampista : SoccerPlayer
     {
         public int Assist { get; set; }
-        public Centrocampista(string FirstName, string LastName, int Age, int NumberJersey, int Assist)
+        public Centrocampista(int NumberJersey, string FirstName, string LastName, int Age, int Assist)
             : base(NumberJersey, FirstName, LastName, Age)
         {
             Role = RoleEnum.Centrocampista;
