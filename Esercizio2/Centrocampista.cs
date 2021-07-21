@@ -9,16 +9,13 @@ namespace Esercizio2
     class Centrocampista : SoccerPlayer
     {
         public int Assist { get; set; }
-        public Centrocampista(string FirstName, string LastName, int Age, RoleEnum Role, int NumberJersey, int GoalsTaken)
-            : base(NumberJersey, FirstName, LastName, Age, Role)
+        public Centrocampista(string FirstName, string LastName, int Age, int NumberJersey, int Assist)
+            : base(NumberJersey, FirstName, LastName, Age)
         {
             Role = RoleEnum.Centrocampista;
             this.Assist = Assist;
         }
 
-        public Centrocampista()
-        {
-
-        }
+       
     }
 }

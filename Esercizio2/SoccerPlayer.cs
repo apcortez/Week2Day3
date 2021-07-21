@@ -8,6 +8,8 @@ namespace Esercizio2
 {
     abstract class SoccerPlayer : Athlete
     {
+        private int numberJersey;
+
         public RoleEnum Role { get; set; }
         public int NumberJersery { get; set; }
 
@@ -25,8 +27,16 @@ namespace Esercizio2
             
         }
 
-  
-        
+        public SoccerPlayer()
+        {
+
+        }
+
+        public SoccerPlayer(int NumberJersey, string FirstName, string LastName, int Age)
+            :base(FirstName,LastName, Age)
+        {
+
+        }
     }
 
     enum RoleEnum

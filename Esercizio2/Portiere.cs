@@ -8,8 +8,8 @@ namespace Esercizio2
 {
     class Portiere : SoccerPlayer
     {   public int GoalsTaken { get; set; }
-        public Portiere(int NumberJersey, string FirstName, string LastName, int Age, RoleEnum Role, int GoalsTaken)
-             : base(NumberJersey, FirstName, LastName, Age, Role)
+        public Portiere(int NumberJersey, string FirstName, string LastName, int Age, int GoalsTaken)
+             : base(NumberJersey, FirstName, LastName, Age)
         {
             
             Role = RoleEnum.Portiere;

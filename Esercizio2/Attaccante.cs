@@ -9,8 +9,8 @@ namespace Esercizio2
     class Attaccante : SoccerPlayer
     {
         public int Goal { get; set; }
-        public Attaccante(int NumberJersey, string FirstName, string LastName, int Age, RoleEnum Role, int Goal)
-            : base(NumberJersey, FirstName, LastName, Age, Role)
+        public Attaccante(int NumberJersey, string FirstName, string LastName, int Age, int Goal)
+            : base(NumberJersey, FirstName, LastName, Age)
         {
             Role = RoleEnum.Attaccante;
             this.Goal = Goal;

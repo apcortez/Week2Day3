@@ -9,8 +9,8 @@ namespace Esercizio2
     class Difensore: SoccerPlayer
     {
         public int BallRecoveries { get; set; }
-        public Difensore(int NumberJersey, string FirstName, string LastName, int Age, RoleEnum Role, int BallRecoveries)
-            : base(NumberJersey, FirstName, LastName, Age, Role)
+        public Difensore(int NumberJersey, string FirstName, string LastName, int Age,int BallRecoveries)
+            : base(NumberJersey, FirstName, LastName, Age)
         {
             Role = RoleEnum.Difensore;
             this.BallRecoveries = BallRecoveries;

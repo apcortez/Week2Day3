@@ -29,7 +29,7 @@ namespace Esercizio2
                 new Attaccante(3, "Lorenzo", "Insigne", 19, RoleEnum.Attaccante, 2),
                 new Attaccante(4, "Federico", "Chiesa", 20, RoleEnum.Attaccante, 5),
                 new Attaccante(5, "Ciro", "Immobile", 21, RoleEnum.Attaccante, 0),
-                new Centrocampista(6, "Jorge", "Frello", 27, RoleEnum.Centrocampista )
+                new Centrocampista(6, "Jorge", "Frello", 27, RoleEnum.Centrocampista, )
                 
 
             }
